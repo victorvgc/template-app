@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PrimaryButton" parent="TextAppearance.AppCompat">
+        <item name="android:color">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:radius">42dp</item>
+    </style>
+</resources>
