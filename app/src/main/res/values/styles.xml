@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="PrimaryButton" parent="TextAppearance.AppCompat">
-        <item name="android:color">@color/primary</item>
+        <item name="android:background">@drawable/bg_button_primary</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:radius">42dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingHorizontal">64dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SecondaryButton" parent="TextAppearance.AppCompat">
+        <item name="android:background">@drawable/bg_button_secondary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:radius">42dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingHorizontal">64dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextButton" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:radius">42dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="InputField" parent="Widget.Design.TextInputLayout">
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="FormErrorText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/error</item>
+        <item name="android:textSize">14sp</item>
     </style>
 </resources>
